@@ -10,7 +10,7 @@ authors = [
     { name = "Your Name", email = "your.email@example.com" },
 ]
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.9"
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
@@ -74,7 +74,7 @@ dependencies = [
     "reka-api",
     "together",
     "dashscope",
-    "fschat @ file:eval/chat_benchmarks/MTBench",  # Use relative path that pip will resolve during installation
+    "fschat",
     
     # Cloud & Storage
     "gcsfs",
@@ -82,7 +82,7 @@ dependencies = [
     "google-auth==2.25.1",
     "boto3",
     "botocore",
-    "sagemaker",
+    # "sagemaker",
     "fsspec==2024.6.1",
     "hf-transfer",
     "huggingface_hub[cli]",
@@ -105,7 +105,7 @@ dependencies = [
     "requests>=2.28",
     "websocket",
     "aiofiles",
-    "bespokelabs-curator>=0.1.16.0",
+    # "bespokelabs-curator>=0.1.16.0",
     
     # Database
     "sqlalchemy",
@@ -193,3 +193,7 @@ packages = ["evalchemy"]
 
 [tool.setuptools.package-dir]
 evalchemy = "evalchemy"
+
+
+[tool.uv.sources]
+fschat = { path = "./eval/chat_benchmarks/MTBench" }

@@ -3,7 +3,7 @@ import os
 import time
 from typing import Any, Dict, List, Optional, Tuple, Union
 
-from bespokelabs import curator
+# from bespokelabs import curator
 from datasets import Dataset
 from lm_eval.api.instance import Instance
 from lm_eval.api.model import TemplateLM
