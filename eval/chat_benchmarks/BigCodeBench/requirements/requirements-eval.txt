@@ -17,7 +17,7 @@ gensim==4.3.2
 geopandas==0.13.2
 geopy==2.4.1
 holidays==0.29
-keras==2.11.0
+keras==3.13.2
 Levenshtein==0.25.0
 librosa==0.10.1
 lxml==4.9.3
