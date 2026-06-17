@@ -1,7 +1,7 @@
 beautifulsoup4==4.8.2
 blake3==0.4.1
 chardet==5.2.0
-cryptography==38.0.0
+cryptography==48.0.1
 datetime==5.5
 Django==4.2.7
 dnspython==2.6.1
